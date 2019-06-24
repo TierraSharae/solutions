@@ -6,6 +6,11 @@ import java.util.*;
 import java.util.concurrent.*;
 import java.util.regex.*;
 
+/*
+Hackerrank: Given five positive integers, find the minimum and maximum values that can 
+be calculated by summing exactly four of the five integers. 
+*/
+
 public class Solution {
 
     // Complete the miniMaxSum function below.
@@ -25,7 +30,6 @@ public class Solution {
             if (i > largest){
                 largest = i;
             }
-
         }
 
         min = total - largest;
