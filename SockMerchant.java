@@ -4,16 +4,11 @@ public class Solution {
     static int sockMerchant(int n, int[] ar) {
 
         int total = 0 ; // total count to be returned
-
-        int currCount = 1 ; // count of the current sock number we're on
-
-        int num = 0 ; // the sock "number" itsef
+        int currCount = 1 ; // count of the current sock color we're on
+        int num = 0 ; // the sock "color" itsef
 
         Arrays.sort(ar) ; 
 
-        for (int i : ar){
-        }
-        
         num = ar[0] ;
 
         for (int i = 1 ; i < n ; i++){
@@ -30,7 +25,6 @@ public class Solution {
                 }
                 currCount = 1;
             }
-        }
-             
+        }    
         return total;
     }
