@@ -8,7 +8,7 @@ class Solution {
             if (!h.add(nums[i])) h.remove(nums[i]) ;
         }
         
-        //convert hashet of size 1 into array; return 0th element
+        //convert hashset of size 1 into array; return 0th element
         return h.toArray(new Integer[1])[0] ;
         
     }
